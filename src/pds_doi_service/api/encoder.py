@@ -4,6 +4,9 @@ from pds_doi_service.api.models import Model
 
 
 class JSONEncoder(FlaskJSONEncoder):
+    """
+    This encodes into JSON.
+    """
     include_nulls = False
 
     def default(self, o):

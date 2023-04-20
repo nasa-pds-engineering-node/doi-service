@@ -47,7 +47,7 @@ jobs:
     unstable-assembly:
         name: 🧩 Unstable Assembly
         if: github.actor != 'pdsen-ci'
-        runs-on: ubuntu-latest
+        runs-on: self-hosted
         steps:
             -
                 name: 💳 Checkout
